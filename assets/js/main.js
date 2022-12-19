@@ -202,8 +202,7 @@ themeButton.addEventListener('click', () => {
 
 
 $.getJSON("assets/lang/lang.json", function(json){
-    var textoEnHtml = textoJSON.texto.replace(/\n/g, "<br />");
-    document.getElementById("myText").innerHTML = textoEnHtml;
+
     //Lenguaje por defecto de la página sessionStorage.setItem("lang", "idioma")"
     if(!localStorage.getItem("lang")){
       localStorage.setItem("lang", "en");
@@ -223,3 +222,6 @@ $.getJSON("assets/lang/lang.json", function(json){
         }); //Each
     }); //Funcion click
   });//Get json AJAX
+
+/*==================== Translate active ====================*/ 
+

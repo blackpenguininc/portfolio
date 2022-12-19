@@ -462,6 +462,18 @@ img {
   justify-content: center;
 }
 
+.about__img-flag{
+  width: 1.15rem;
+  justify-content: center;
+}
+.about__img-flag:hover{
+  cursor:pointer;
+ 
+}
+.active-link-flag:active{
+ -webkit-filter: grayscale(100%);
+}
+
 /*==================== SKILLS ====================*/
 .skills__container{
  row-gap: 0; 
