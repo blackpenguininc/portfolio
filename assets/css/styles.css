@@ -471,8 +471,9 @@ img {
  
 }
 
-.active-link-flag:active{
- --webkit-filter: grayscale(100%);
+
+.seleccted{
+  filter: grayscale(100%);
 }
 
 /*==================== SKILLS ====================*/
