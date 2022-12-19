@@ -470,8 +470,9 @@ img {
   cursor:pointer;
  
 }
+
 .active-link-flag:active{
- -webkit-filter: grayscale(100%);
+ --webkit-filter: grayscale(100%);
 }
 
 /*==================== SKILLS ====================*/
